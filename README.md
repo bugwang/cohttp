@@ -1,4 +1,6 @@
 # cohttp
+The goal is to hunt and kill the microservices of Go.
+
 idea：
 http server api ，http client api:
 use epoll 
