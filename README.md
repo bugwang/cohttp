@@ -25,4 +25,4 @@ step 1. no coroutine
 
 nginx test
 
-<img width="603" height="129" alt="图片" src="https://github.com/user-attachments/assets/883b487f-51f3-49c3-a728-243e7c1aa286" />
+<img width="659" height="129" alt="图片" src="https://github.com/user-attachments/assets/883b487f-51f3-49c3-a728-243e7c1aa286" />
