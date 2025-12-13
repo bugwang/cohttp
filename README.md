@@ -2,7 +2,7 @@
 The goal is to hunt and kill the microservices of go.
 
 idea：
-http server api ，http client api:
+http server ，http client api:
 use epoll 
 use pool
 use coroutine
@@ -12,10 +12,10 @@ but i need time
 desc：
 
         server
-        one loop per pthread  - > co_pool per loop -> ( one request one co)  for  parallel hander
+        one loop per pthread  - > one coro of pool per loop -> ( one request one coro)  for  parallel request hander
 
         hander
-        a or s io for (one request -> more demand -> parallel demand per co -> one reply)
+        aio or coio for one request and thread safe  (one request -> more demand -> parallel demand per coro -> one reply) 
 
 step 1. no coroutine
 
